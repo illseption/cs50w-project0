@@ -75,8 +75,14 @@ header {
 }
 
 .container {
-    margin: 50px 10px 10px 150px;
-    padding: 0px 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.contact_page {
+    padding: 10px;
 }
 
 #about {
@@ -97,6 +103,16 @@ header {
 
 #contact {
     font-family: 'Public Sans';
+}
+
+#details {
+    width: 180px;
+    float: left;
+}
+
+#submit {
+    width: 600px;
+    float: right;
 }
 
 ul li {
